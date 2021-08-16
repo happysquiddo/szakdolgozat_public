@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="hu.scsaba.health">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <application
+        android:name=".HealthApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.Health">
+        <receiver android:name=".screens.loggedin.water.WaterBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="hu.scsaba.health.drinkadded"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".screens.loggedin.breaks.BreaksBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="hu.scsaba.health.alarmstopped"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Health.NoActionBar"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <service android:name=".screens.loggedin.water.WaterForegroundService" />
+    </application>
+
+</manifest>

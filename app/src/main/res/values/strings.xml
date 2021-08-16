@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name" translatable="false">Health</string>
+    <string name="loading">Loading…</string>
+    <string name="success">Success! ✔</string>
+    <string name="attributions">Attributions</string>
+
+
+    <!--    exceptions-->
+    <string name="something_wrong">Something went wrong</string>
+    <string name="name_exists">This name already exists</string>
+    <string name="already_posted">You have already posted this</string>
+    <string name="invalid_credentials">Invalid credentials</string>
+    <string name="email_exists">This email address is already registered</string>
+
+
+    <!--    Login-->
+    <string name="login">Login</string>
+    <string name="login_email">Email address</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_not_registered">Not registered?</string>
+
+
+    <!--    signup-->
+    <string name="signup">Sign up</string>
+    <string name="login_instead">Back to login</string>
+
+<!--nav-->
+    <string name="feed">Feed</string>
+    <string name="account">Account</string>
+
+    <!--    error-->
+    <string name="textfield_error_email">Incorrect email format</string>
+    <string name="textfield_error_password">Incorrect password format. At least 6 characters</string>
+    <string name="textfield_error_username">Username must be at least 3 characters</string>
+    <string name="error_signup">Error signing up</string>
+    <string name="error_login">Error logging in</string>
+    <string name="try_again">Try again</string>
+
+
+    <!--    account-->
+    <string name="logout">Log out</string>
+    <string name="edit">Edit</string>
+    <string name="search">Search</string>
+    <string name="progress">Progress</string>
+    <string name="posts">Posts</string>
+
+<!--    home-->
+    <string name="home">Home</string>
+    <string name="exercises">My exercises</string>
+    <string name="water_intake">My water intake</string>
+    <string name="schedule_breaks">Schedule breaks</string>
+
+<!--goals-->
+
+
+<!--    water-->
+    <string name="add">Add:</string>
+    <string name="notification">Notification:</string>
+    <string name="drinks_today">Today\'s water intake:</string>
+
+<!--    water notification-->
+    <string name="add_water">"ADD A GLASS OF WATER"</string>
+    <string name="glasses_of_water"> glasses of water</string>
+    <string name="water_notif_name">Water tracker</string>
+    <string name="water_notif_desctiption">Water tracker channel</string>
+
+
+
+
+    <!-- break-->
+    <string name="start">Start</string>
+    <string name="off">off</string>
+    <string name="working">working…</string>
+    <string name="on_break">break…</string>
+    <string name="duration">Work duration</string>
+    <string name="break_interval">Break interval</string>
+    <string name="break_duration">Break duration</string>
+    <string name="minute">minute</string>
+    <string name="minutes">minutes</string>
+    <string name="hour">hour</string>
+    <string name="hours">hours</string>
+    <string name="selected_work_duration">Selected work duration</string>
+    <string name="selected_break_interval">Selected break interval</string>
+    <string name="until_next_break">Until next break</string>
+
+
+
+
+    <!--    break notification-->
+    <string name="break_notif_name">Schedule breaks</string>
+    <string name="break_notif_desctiption">Notifications about breaks during work</string>
+    <string name="break_notif_work">Working…</string>
+    <string name="break_notif_break_1">Take a break… Let\'s stretch!</string>
+    <string name="break_notif_break_2">Take a break… Don\'t forget to hydrate!</string>
+    <string name="break_notif_break_3">Take a break… Go get some fresh air!</string>
+    <string name="break_notif_stopped">Stopped…</string>
+
+    <!--    workouts-->
+    <string name="my_workouts">My workouts</string>
+    <string name="create_workout">Create workout</string>
+
+<!--    create workout-->
+
+    <string name="add_exercise">Add</string>
+    <string name="save">Save</string>
+    <string name="name_your_workout">Name your workout</string>
+    <string name="minimum_3_characters">Min. 3 characters (max 20)</string>
+    <string name="cancel">Cancel</string>
+    <string name="name">name</string>
+    <string name="Name_is">Name: </string>
+
+    <string name="interval_exercises">Interval between exercises</string>
+    <string name="interval_rounds">Interval between rounds</string>
+    <string name="number_of_rounds">Number of rounds</string>
+    <string name="settings">settings</string>
+    <string name="too_short">🤔   This seems a bit short</string>
+    <string name="no_exercises">👆   Add some exercises first</string>
+
+    <!--    workout list-->
+    <string name="workouts">Workouts</string>
+    <string name="empty">Empty</string>
+    <string name="rounds">rounds</string>
+    <string name="about_post">Say something about your workout</string>
+
+
+    <!--    do workout-->
+    <string name="workout_break">Break…</string>
+    <string name="well_done">Well done!</string>
+    <string name="progress_saved">Progress saved.</string>
+    <string name="error_saving_progress">Error saving progress.</string>
+
+    <!--    feed-->
+    <string name="feed_empty">Feed is empty.</string>
+    <string name="write_comment">Write comment</string>
+    <string name="check_out_workout">Check out my workout that I have created!</string>
+    <string name="comments">Comments</string>
+    <string name="nothing_to_see">This seems empty</string>
+
+
+    <!--    edit-->
+    <string name="user_weight">Weight</string>
+    <string name="user_height">Height</string>
+    <string name="age">Age</string>
+
+<!--    search-->
+    <string name="no_match">No results</string>
+    <string name="start_typing">Start typing…</string>
+    <string name="search_username">Search for a username (case sensitive)</string>
+
+<!--    progress-->
+    <string name="workouts_per_week">Workouts per week</string>
+    <string name="week">week</string>
+
+
+
+</resources>
