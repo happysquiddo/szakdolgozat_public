@@ -12,9 +12,9 @@ Note: The screenshots do not cover the whole app.
 <img height="430" src="screenshots/user.jpg" alt="User">
 <img height="430" src="screenshots/create.jpg" alt="Create">
 <div>
- <img height="430" src="screenshots/list.jpg" alt="List">
  <img height="430" src="screenshots/share.jpg" alt="Share">
  <img height="430" src="screenshots/shared.jpg" alt="Shared">
+ <img height="430" src="screenshots/list.jpg" alt="List">
 </div>
 <div>
  <img height="430" src="screenshots/workout.jpg" alt="Workout">
